@@ -46,6 +46,7 @@ php flarum cache:clear
 ## Translation status for official extensions
 
 <!-- flarum-extensions-list-start -->
+
 | Extension | Status |
 | --- | --- |
 | [`flarum/akismet`](https://github.com/flarum/akismet) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ko/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/ko/) |
@@ -63,27 +64,38 @@ php flarum cache:clear
 | [`flarum/subscriptions`](https://github.com/flarum/subscriptions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ko/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/ko/) |
 | [`flarum/suspend`](https://github.com/flarum/suspend) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ko/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-suspend/ko/) |
 | [`flarum/tags`](https://github.com/flarum/tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ko/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/ko/) |
+
 <!-- flarum-extensions-list-stop -->
 
 
 ## Translation status for koiends of Flarum extensions
 
 <!-- fof-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+| [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ko/fof-masquerade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-masquerade/ko/) |
+
 <!-- fof-extensions-list-stop -->
 
 
 ## Translation status for community extensions
 
 <!-- various-extensions-list-start -->
+
 | Extension | Status |
 | --- | --- |
-| [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ko/fof-masquerade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-masquerade/ko/) |
+
 <!-- various-extensions-list-stop -->
 
 
 ## Translation status for premium extensions
 
 <!-- premium-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
 <!-- premium-extensions-list-stop -->
 
 
