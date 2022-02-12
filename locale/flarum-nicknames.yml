@@ -1,7 +1,7 @@
 flarum-nicknames:
   admin:
     permissions:
-      edit_own_nickname_label: '내 별명 편집하기'
+      edit_own_nickname_label: '자신의 별명 편집하기'
     settings:
       max_label: '별명 최대 길이'
       min_label: '별명 최소 길이'
