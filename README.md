@@ -10,7 +10,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/hahagu/flarum-l10n-ext-korean)](https://packagist.org/packages/hahagu/flarum-l10n-ext-korean/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/hahagu/flarum-l10n-ext-korean)](https://packagist.org/packages/hahagu/flarum-l10n-ext-korean/stats) 
 
-This language pack contains Xxish translations for Flarum (compatible with `1.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
+This language pack contains Korean translations for Flarum (compatible with `1.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
 
 ## Installation
