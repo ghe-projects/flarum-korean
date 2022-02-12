@@ -6,14 +6,14 @@
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"ko-locale"
 	],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
+			"name": "Mingu Kang",
+			"email": "mingu.kang@defyworks.com",
+			"homepage": "https://defyworks.com/"
 		}
 	],
 	"support": {
