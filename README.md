@@ -1,7 +1,3 @@
-**This is template for Flarum language pack. If you want to use it, follow [these instructions](https://github.com/rob006-software/flarum-lang-template/wiki).**
-
----------
-
 # Korean language pack for [Flarum](https://flarum.org/)
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/hahagu/flarum-l10n-ext-korean?color=success&label=stable)](https://packagist.org/packages/hahagu/flarum-l10n-ext-korean) 
