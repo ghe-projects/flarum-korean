@@ -1,8 +1,8 @@
 {
-	"name": "hahagu/flarum-l10n-ext-korean",
+	"name": "flarum-lang/korean",
 	"type": "flarum-extension",
 	"description": "Korean language pack for Flarum.",
-	"homepage": "https://github.com/hahagu/flarum-l10n-ext-korean",
+	"homepage": "https://github.com/flarum-lang/korean",
 	"keywords": [
 		"locale",
 		"flarum",
@@ -17,8 +17,8 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/hahagu/flarum-l10n-ext-korean/issues",
-		"source": "https://github.com/hahagu/flarum-l10n-ext-korean"
+		"issues": "https://github.com/flarum-lang/korean/issues",
+		"source": "https://github.com/flarum-lang/korean"
 	},
 	"require": {
 		"flarum/core": "^1.0"
