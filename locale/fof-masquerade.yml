@@ -15,7 +15,7 @@ fof-masquerade:
       edit: '{field} 항목 편집'
       force-user-to-completion: '사용자가 프로필을 무조건 완성하게 하기'
       icon: 아이콘
-      icon-help: "사용자가 입력한 값 앞이 이 아이콘을 표시합니다. 사용 가능한 아이콘 참조를 위해 <a>FontAwesome 웹사이트</a>를 확인하세요. 아이콘을 \"fas fa-info\"와 같이  \"fa-\" 접두사와 사용하세요.\n"
+      icon-help: "사용자가 입력한 값 앞이 이 아이콘을 표시합니다. 사용 가능한 아이콘 참조를 위해 <a>FontAwesome 웹사이트</a>를 확인하세요. 아이콘을 \"fas fa-info\"와 같이 \"fa-\" 접두사와 사용하세요.\n"
       name: '항목 이름'
       name-help: "공개적으로 보이는 (번역 불가) 항목 이름\n"
       on_bio: '이 항목에 대한 답변을 유저의 프로필에 보이기'
