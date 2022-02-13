@@ -1,10 +1,10 @@
 # Korean language pack for [Flarum](https://flarum.org/)
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/hahagu/flarum-l10n-ext-korean?color=success&label=stable)](https://packagist.org/packages/hahagu/flarum-l10n-ext-korean) 
-[![Latest Unstable Version](https://img.shields.io/packagist/v/hahagu/flarum-l10n-ext-korean?include_prereleases&label=unstable)](https://packagist.org/packages/hahagu/flarum-l10n-ext-korean) 
-[![License](https://img.shields.io/packagist/l/hahagu/flarum-l10n-ext-korean)](https://packagist.org/packages/hahagu/flarum-l10n-ext-korean) 
-[![Total Downloads](https://img.shields.io/packagist/dt/hahagu/flarum-l10n-ext-korean)](https://packagist.org/packages/hahagu/flarum-l10n-ext-korean/stats) 
-[![Monthly Downloads](https://img.shields.io/packagist/dm/hahagu/flarum-l10n-ext-korean)](https://packagist.org/packages/hahagu/flarum-l10n-ext-korean/stats) 
+[![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/korean?color=success&label=stable)](https://packagist.org/packages/flarum-lang/korean) 
+[![Latest Unstable Version](https://img.shields.io/packagist/v/flarum-lang/korean?include_prereleases&label=unstable)](https://packagist.org/packages/flarum-lang/korean) 
+[![License](https://img.shields.io/packagist/l/flarum-lang/korean)](https://packagist.org/packages/flarum-lang/korean) 
+[![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/korean)](https://packagist.org/packages/flarum-lang/korean/stats) 
+[![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/korean)](https://packagist.org/packages/flarum-lang/korean/stats) 
 
 This language pack contains Korean translations for Flarum (compatible with `1.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
@@ -14,7 +14,7 @@ This language pack contains Korean translations for Flarum (compatible with `1.0
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require hahagu/flarum-l10n-ext-korean
+composer require flarum-lang/korean
 ```
 
 Then enable extension in admin panel of your Flarum.
@@ -25,7 +25,7 @@ Then enable extension in admin panel of your Flarum.
 You can update language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer update hahagu/flarum-l10n-ext-korean
+composer update flarum-lang/korean
 ```
 
 Then clear the cache:
