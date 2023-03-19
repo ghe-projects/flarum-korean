@@ -28,6 +28,7 @@
 	"extra": {
 		"flarum-extension": {
 			"title": "한국어",
+			"category": "language",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
