@@ -564,7 +564,7 @@ core:
     users: 사용자
     view: 보기
     write_a_reply: '답장 쓰기...'
-    you: 당신
+    you: 회원
   views:
     admin:
       extensions:
