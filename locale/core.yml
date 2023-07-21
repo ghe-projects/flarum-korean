@@ -52,7 +52,7 @@ core:
       welcome_banner_text: '모든 토의 페이지의 배너에 표시되는 본문을 구성합니다. 포럼 방문자에 대한 환영 메시지로 사용됩니다.'
     dashboard:
       clear_cache_button: '캐시 삭제'
-      description: '한눈에 보이는 당신의 포럼.'
+      description: '한눈에 보이는 회원님의 포럼.'
       title: 대시보드
       tools_button: 도구
     edit_css:
