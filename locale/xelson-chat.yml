@@ -1,0 +1,145 @@
+xelson-chat:
+  forum:
+    pusher_not_found: 채팅이 실시간으로 업데이트되려면 pusher 또는 Websocket 설치가 필요합니다.
+    index:
+      chat_link: Chat
+    toolbar:
+      title: Chat
+      enable_sounds: 소리 켜기
+      disable_sounds: 소리 끄기
+      enable_notifications: 알림 켜기
+      disable_notifications: 알림 끄기
+      minimize: 축소
+      maximize: 확대
+      chat:
+        settings: 채팅설정
+    chat:
+      welcome:
+        header: 안녕하세요.
+        subheader: 대화를 위해 왼쪽에서 채팅을 선택하십시오.
+      moder: 중재자
+      kick: 추방
+      leave: 나가기
+      rejoin: 다시참여
+      edit_modal:
+        title: 채팅설정
+        moderator:
+          got: 채팅 {chatname}에서 중재자 권한을 얻었습니다.
+          lost: 채팅 {chatname}에서 중재자 권한을 잃었습니다.
+        form:
+          title:
+            label: 채팅명
+            validator: 최소 1글자
+          color:
+            label: 색상
+            validator: 색상코드 입력. 예)#ffffff
+          icon:
+            label: => core.ref.icon
+            validator: => core.ref.icon_text
+          users:
+            edit: 사용자 선택 및 편집
+          leave: 나가기
+          return: 입장하기
+          delete:
+            title: 이 채팅을 삭제하시겠습니까?
+            desc: 계속하려면 채팅명을 복사하여 붙여넣으세요.
+            placeholder: 채팅명
+            button: 채팅 삭제
+        search:
+          placeholder: 사용자 찾기
+          failed: 검색된 사용자가 없습니다.
+          invited: 초대됨
+        save_button: => core.ref.save_changes
+      list:
+        pin: 패널 고정
+        unpin: 패널 고정 안함
+        placeholder: 검색
+        preview:
+          empty: 내용이 없습니다.
+        add_modal:
+          title: 사용자 선택
+          chat: 채팅
+          channel: 채널
+          create:
+            chat: 새로운 채팅 개설
+            channel: 새로운 채널 개설
+          alerts:
+            exists: 이 사용자로 다른 PM을 만들 수 없습니다.
+          form:
+            title:
+              chat: 채팅명
+              channel: 채널명
+              validator: 최소 1글자
+            icon:
+              label: => core.ref.icon
+              validator: => core.ref.icon_text
+            color:
+              label: => xelson-chat.forum.chat.edit_modal.form.color.label
+              validator: => xelson-chat.forum.chat.edit_modal.form.color.validator
+            users: 사용자 선택
+          search:
+            placeholder: 사용자 검색
+            failed: 검색된 사용자가 없습니다.
+            invited: 초대됨
+            more_results: 그리고 {more_results} 더보기...
+      placeholder: 내용을 입력하세요...
+      message:
+        actions:
+          hide: 숨김
+          resend: 재전송
+        censored: 이 내용을 보려면 로그인하세요!
+        deleted: 다음 사용자로 인해 삭제됨.
+        deleted_forever: 다음 사용자로 인해 완전히 삭제됨.
+        you: 회원
+        type:
+          url: URL
+          event: 이벤트
+          code: <Code />
+        events:
+          chat:
+            created: "{creatorname}님이 {chatname}을 개설하고 {usernames}님을 초대했습니다."
+          pm:
+            created: "{creatorname}님이 {username}과의 채팅을 만들었습니다."
+          channel:
+            created: "{creatorname}님이 {chatname} 채널을 만들었습니다."
+          title:
+            edited: "{editorname}님이 채팅명을 {old}에서 {new}로 변경했습니다."
+          icon:
+            edited: "{editorname}님이 채팅 아이콘을 {old}에서 {new}로 변경했습니다."
+          color:
+            edited: "{editorname}님이 채팅 색상을 {old}에서 {new}로 변경했습니다."
+          users:
+            invited: "{editorname}님이 {usernames}님을 초대했습니다."
+            kicked: "{editorname}님이 {usernames}님을 추방했습니다."
+            invited_kicked: "{editorname} invited {invitednames} and kicked {kickednames}"
+          self:
+            leaved: "{username}님이 나가셨습니다."
+            entered: "{username}님이 입장하셨습니다."
+    errors:
+      unauthenticated: 등록된 사용자만 채팅을 사용할 수 있습니다.
+      chatdenied: 회원님의 사용자 그룹은 메시지 작성이 허용되지 않습니다.
+      removed: 회원님은 채팅에서 제외되었습니다.
+  admin:
+    permissions:
+      post: Post chat messages
+      edit: Edit chat messages
+      delete: Delete chat messages
+      enabled: Enable chat
+      create:
+        chat: Start chats
+        channel: Start channels
+      moderate:
+        delete: Delete chat messages
+        vision: See deleted messages
+
+    settings:
+      title: Chat settings
+      charlimit: Maximum characters in the message
+      floodgate:
+        title: Antiflood
+        number: Number of messages in a row
+        time: Over a period
+      display:
+        title: Display
+        minimize: Minimize initially
+        censor: Censoring messages for unauthorized users

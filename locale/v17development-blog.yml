@@ -1,0 +1,118 @@
+v17development-flarum-blog:
+  admin:
+    blog: "Blog"
+
+    permissions:
+      write_articles: "Write and edit blog articles"
+      auto_approve_posts: "Post articles without approval"
+      approve_posts: "Can approve blog articles"
+
+    settings:
+      no_categories_selected: "No categories selected"
+      selected_category_count: "{count, plural, one {You have # category selected} other {You have # categories selected}}"
+      select_categories_button: "Select blog categories"
+      blog_heading: "Blog"
+      featured_count_label: Max Featured Posts
+      featured_count_text: How many posts should be displayed in a big grid at the top of a blog page?
+      allow_comments_label: "Allow comments"
+      allow_comments_text: "By default, allow comments on blog posts. When disabled, it can be enabled individually per blog post. <b>Note:</b> Changing this setting will not affect pre-existing blog posts."
+      require_review_label: "Blog posts requires review"
+      require_review_text: "When posting an article, it will not be visible directly and needs to be reviewed by a moderator."
+      hide_on_discussion_list_label: "Don't show on discussion list"
+      hide_on_discussion_list_text: "Hide blog posts from the discussions list."
+      add_sidebar_nav_label: "Add to sidebar navigation"
+      add_sidebar_nav_text: "Include a link to the blog on the sidebar nav menu."
+      categories_heading: "Categories"
+      hide_tags_in_taglist_label: "Hide tags in taglist"
+      hide_tags_in_taglist_text: "When enabled, this extension will hide the blog tags from your homepage."
+      show_tag_hierarchy_label: "Show tag hierarchy"
+      show_tag_hierarchy_text: "Add spacing to child-categories and give the category-list a hierarchy."
+      redirects_heading: "Redirects"
+      redirect_articles_label: "Redirect blog articles"
+      redirect_articles_text: "When enabled, this extension will redirect original discussion URLs to their blog URL."
+      redirect_tags_label: "Redirect blog tags"
+      redirect_tags_text: "When enabled, this extension redirects blog tag URLs to the blog category URL."
+      default_article_image_label: Default article image
+      default_article_image_text: Select a default article image to display when no image is set.
+      add_hero_label: Show welcome banner
+      add_hero_text: Show welcome banner on blog pages if it wasn't closed yet.
+
+  forum:
+    blog: "블로그"
+    read_more: "더보기"
+    hidden: "숨김"
+    recent_posts: "최근 블로그"
+    categories: "카테고리"
+    forum_nav: "포럼"
+    return_to_overview: "목록으로 돌아가기"
+    no_more_posts: "더 이상 블로그가 없습니다."
+    category_empty: "블로그 게시물이 없습니다."
+
+    compose:
+      write_article: "블로그 작성"
+
+    validation:
+      missing_id: "ID 누락"
+
+    article:
+      title: "제목"
+      slug: "슬러그"
+      summary: "요약"
+
+    comment_section:
+      comments: "댓글"
+      locked: "이 블로그에 댓글이 비활성화되었습니다."
+
+    review_article:
+      pending_review_title: "검토중"
+      pending_review: "이 블로그는 검토중이며 아직 게시되지 않았습니다."
+      approve_article: "승인"
+      approve_article_approved: "블로그가 승인 및 게시되었습니다."
+
+    tools:
+      rename_article: "이름 수정"
+      edit_article: "내용 수정"
+      update_category: "카테고리 수정"
+      article_settings: "게시설정"
+      approve_article: "게시"
+      hide_article: "숨김"
+      recover_article: "복구"
+      delete_forever: "완전삭제"
+      enable_comments: "댓글 허용"
+      disable_comments: "댓글 방지"
+
+    utils:
+      redirect:
+        title: "이동중..."
+        link: "<a>Click here</a> if the page does not redirect you"
+
+    composer:
+      no_title: "제목없음"
+      enter_message_here: "여기에 내용을 입력하세요."
+      post_article: "게시"
+      select_category: "카테고리 선택"
+      edit_categories: "카테고리 수정"
+      update_settings: "게시설정"
+      write: "작성"
+      view: "보기"
+      nothing_to_preview: "미리보기 없음"
+      comment_section: "글 작성 시 댓글란은 제공되지 않습니다."
+      no_blog_tags_selected: "선택한 태그가 블로그 태그가 아닙니다. 하나 이상 선택하세요."
+      post_without_blog_info: "블로그를 게시하시겠습니까? 아직 블로그 요약 또는 이미지를 입력하지 않았습니다."
+
+    article_settings:
+      title: 블로그 게시 설정
+
+      fields:
+        summary:
+          title: 요약
+          placeholder: 요약내용을 입력하세요.
+          helper_text: 이 요약은 블로그 개요 페이지에 표시되며 SEO 목적으로 사용됩니다.
+
+        image:
+          title: 이미지
+          helper_text: "권장 사이즈: 1200x630"
+
+        highlight:
+          title: 강조
+          helper_text: 블로그 개요 페이지에서 이 게시물에 큰 이미지를 제공하십시오.
