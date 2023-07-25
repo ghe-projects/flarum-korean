@@ -440,7 +440,7 @@ core:
       avatar_upload_button: 업로드
       avatar_upload_tooltip: '새 프로필 사진 업로드'
       discussions_link: '=> core.ref.discussions'
-      in_discussion_text: '{discussion}에서'
+      in_discussion_text: '{discussion} 에서'
       joined_date_text: '{ago}에 가입함'
       online_text: 온라인
       posts_empty_text: '여기엔 게시물이 없는것 같습니다.'
