@@ -559,7 +559,7 @@ core:
     settings: 설정
     sign_up: 가입
     some_others: '{count, plural, one {# 개의 기타} other {# 개의 기타들}}'
-    start_a_discussion: '토의 시작'
+    start_a_discussion: '새 주제 만들기'
     username: 사용자명
     users: 사용자
     view: 보기
