@@ -18,4 +18,4 @@ flarum-lock:
       discussion_locked_text: '{username}님이 게시물을 잠궜습니다.'
       discussion_unlocked_text: '{username}님이 게시물을 잠금 해제했습니다.'
     settings:
-      notify_discussion_locked_label: '누군가 내 게시물을 잠궜을 때'
+      notify_discussion_locked_label: '누군가 회원님의 게시물을 잠궜을 때'

@@ -7,19 +7,78 @@ flarum-mentions:
     composer:
       mention_tooltip: '사용자 또는 게시물 언급'
       reply_to_post_text: '#{number}에게 답장'
+      
+    mentioned_by:
+      title: 이 게시물에 답글
+      load_more_button: => core.ref.load_more
+      
     notifications:
       others_text: '=> core.ref.some_others'
-      post_mentioned_text: '{username}님이 귀하의 게시물에 답장했습니다'
-      user_mentioned_text: '{username}님이 귀하를 언급했습니다'
+      post_mentioned_text: '{username}님이 회원님의 게시물에 답장했습니다'
+      user_mentioned_text: '{username}님이 회원님을 언급했습니다'
+      group_mentioned_text: "{username}님이 회원님이 속한 그룹을 언급했습니다."
     post:
+      mentioned_by_more_text: "{count} 답장 더보기."
       mentioned_by_self_text: '{users}님이 이에 답장했습니다.'
       mentioned_by_text: '{users}님이 이에 답장했습니다.'
       others_text: '=> core.ref.some_others'
       quote_button: 인용문
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
+      
     settings:
-      notify_post_mentioned_label: '누군가 내 게시물 중 하나에 답장했을 때'
-      notify_user_mentioned_label: '누군가 게시물에서 나를 언급했을 때'
+      notify_post_mentioned_label: '누군가 회원님의 게시물 중 하나에 답장했을 때'
+      notify_user_mentioned_label: '누군가 게시물에서 회원님을 언급했을 때'
+      notify_group_mentioned_label: 누군가 회원님이 속한 그룹을 언급했을 때
+      
     user:
       mentions_link: 언급
+      
+    post_mention:
+      deleted_text: "[알수없음]"
+
+    group_mention:
+      deleted_text: "[알수없는 그룹]"
+      
+    email:
+
+    # These translations are used in emails sent when a post is replied to
+    post_mentioned:
+      subject: "회원님이 작성한 {title} 게시물에 {replier_display_name}님이 답글을 작성하였습니다."
+      body: |
+        {recipient_display_name}님 안녕하세요!
+
+        회원님이 작성한 {title} (#{post_number}) 게시물에 {replier_display_name}님이 답글을 작성하였습니다.
+
+        {url}
+
+        ---
+
+        {content}
+
+    # These translations are used in emails sent when a user is mentioned
+    user_mentioned:
+      subject: "{title} 게시물에서 {mentioner_display_name}님이 회원님을 언급하였습니다."
+      body: |
+        {recipient_display_name}님 안녕하세요!
+
+        {title} 게시물에서 {mentioner_display_name}님이 회원님을 언급하였습니다.
+
+        {url}
+
+        ---
+
+        {content}
+    # These translations are used in emails sent when a group is mentioned
+    group_mentioned:
+      subject: "{title} 게시물에서 {mentioner_display_name}님이 회원님이 속한 그룹을 언급하였습니다."
+      body: |
+        {recipient_display_name}님 안녕하세요!
+
+        {title} 게시물에서 {mentioner_display_name}님이 회원님이 속한 그룹을 언급하였습니다.
+
+        {url}
+
+        ---
+
+        {content}

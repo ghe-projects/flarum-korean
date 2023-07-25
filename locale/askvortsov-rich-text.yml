@@ -1,0 +1,41 @@
+askvortsov-rich-text:
+  admin:
+    settings:
+      toggle_on_editor: Show rich text mode toggle on editor?
+  lib:
+    composer:
+      toggle_button: 서식입력 모드로 전환
+      insert_button: 삽입
+      insert_image:
+        src_placeholder: 링크주소
+        title_placeholder: 제목태그
+      insert_link:
+        text_placeholder: 텍스트
+        href_placeholder: URL
+        title_placeholder: 제목태그 (마우스를 올렸을때 보임)
+        remove_button: 삭제
+      additional_items_tooltip: 추가설정
+      bold_tooltip: 두껍게 <{modifierKey}-b>
+      code_tooltip: 소스코드 <{modifierKey}-`>
+      code_block_tooltip: 코드블록 삽입
+      header_tooltip: 헤더로 변경 {level} <shift-{modifierKey}-{level}>
+      horizontal_rule_tooltip: 가로줄 삽입
+      image_tooltip: 이미지 추가
+      italic_tooltip: 이태릭체 <{modifierKey}-i>
+      link_tooltip: 링크 추가
+      ordered_list_tooltip: 번호 매기기 목록 <shift-{modifierKey}-9>
+      paragraph_tooltip: 단라으로 변경 <shift-{modifierKey}-0>
+      quote_tooltip: 인용문 삽입 <{modifierKey}-q>
+      spoiler_block_tooltip: Block Spoiler/Dropdown
+      spoiler_inline_tooltip: Spoiler  <{modifierKey}-;>
+      strike_tooltip: 취소선 <alt-shift-5>
+      sub_tooltip: 아래첨자 <{modifierKey}-,>
+      sup_tooltip: 어깨글자 <{modifierKey}-.>
+      text_type_tooltip: 텍스트 유형 선택
+      unordered_list_tooltip: 글머리 기호 목록 <shift-{modifierKey}-8>
+
+  forum:
+    settings:
+      composer_heading: 텍스트 편집기
+      use_rich_text_editor_label: 서식 있는 편집기를 사용하시겠습니까?
+      rich_text_compact_paragraphs_label: 개행으로 단락을 구분하지 않음.

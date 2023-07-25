@@ -422,7 +422,7 @@ core:
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: 웹
-      notify_discussion_renamed_label: '누군가 내가 시작한 게시물의 이름을 바꿨을 때'
+      notify_discussion_renamed_label: '누군가 회원님이 시작한 게시물의 이름을 바꿨을 때'
       privacy_disclose_online_label: '온라인 상태를 다른 사용자가 볼 수 있도록 허용'
       privacy_heading: 프라이버시
       title: '=> core.ref.settings'
@@ -472,7 +472,7 @@ core:
     mods: 중재자
   lib:
     alert:
-      dismiss_a11y_label: '알림 닫'
+      dismiss_a11y_label: '알림 닫기'
     badge:
       hidden_tooltip: 숨김
     debug_button: 디버그
