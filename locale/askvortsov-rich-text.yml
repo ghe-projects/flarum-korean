@@ -26,8 +26,8 @@ askvortsov-rich-text:
       ordered_list_tooltip: 번호 매기기 목록 <shift-{modifierKey}-9>
       paragraph_tooltip: 단락으로 변경 <shift-{modifierKey}-0>
       quote_tooltip: 인용문 삽입 <{modifierKey}-q>
-      spoiler_block_tooltip: Block Spoiler/Dropdown
-      spoiler_inline_tooltip: Spoiler  <{modifierKey}-;>
+      spoiler_block_tooltip: 세부정보
+      spoiler_inline_tooltip: 스폴일러  <{modifierKey}-;>
       strike_tooltip: 취소선 <alt-shift-5>
       sub_tooltip: 아래첨자 <{modifierKey}-,>
       sup_tooltip: 어깨글자 <{modifierKey}-.>
