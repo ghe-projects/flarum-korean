@@ -46,7 +46,7 @@ fof-polls:
       allow_multiple_votes_label: 1인당 여러번 투표할 수 있도록 허용
       max_votes_label: 1인당 가능한 투표 횟수
       max_votes_help: 선택지 개수만큼 투표할 수 있도록 하려면 0으로 설정하십시오.
-      hide_votes_label: 투표가 마감될때 까지 숨기기
+      hide_votes_label: 투표가 마감될때 까지 결과 숨기기
       allow_change_vote_label: 투표 선택을 변경할 수 있도록 허용
       question_placeholder: 질문
       submit: 제출
