@@ -1,0 +1,65 @@
+fof-polls:
+  admin:
+    settings:
+      allow_option_image: 각 투표 선택지에 대해 이미지 URL을 제공하도록 허용
+      max_options: 투표 안건당 최대 선택지 수
+      options_color_blend: 투표 선택지의 색상 혼합 텍스트
+      options_color_blend_help: 투표 선택지를 더 읽기 쉽게 만들기 위해 색상 혼합을 사용하려면 이 옵션을 사용하십시오. 이 기능으로 인해 포럼 모양에 문제가 발생하여 가독성이 떨어지는 경우 비활성화하십시오.
+    permissions:
+      view_results_without_voting: 투표하지 않고 결과 보기
+      start: 투표시작
+      self_edit: 생성된 투표 안건 수정(수정 권한 필요)
+      self_post_edit: 내가 개설한 *모든* 투표 안건 편집(수정 권한 필요)
+      vote: 투표
+      change_vote: 투표 선택 변경
+      moderate: 수정 & 삭제
+
+  forum:
+    days_remaining: 투표 마감까지 남은시간 {time}.
+    no_permission: 투표 권한이 없습니다.
+    poll_ended: 투표가 마감되었습니다.
+    public_poll: 투표 참여자 보기
+    max_votes_allowed: "최대 {max, plural, one {#회} other {#회}} 투표가능."
+
+    poll:
+      cannot_change_vote: 투표에한 이후에는 변경할 수 없습니다.
+      submit_button: 투표하기
+
+    composer_discussion:
+      add_poll: => fof-polls.forum.moderation.add
+      edit_poll: => fof-polls.forum.moderation.edit
+      no_permission_alert: 투표시작 권한이 없습니다.
+
+    modal:
+      add_title: 투표 안건 추가
+      add_option_label: 투표 선택지 추가
+      date_placeholder: 투표 종료일 (선택)
+      edit_title: 투표 수정
+      include_question: 질문을 작성해주세요.
+      max: 최대 {max}개 까지 응답할 수 있습니다.
+      min: 최소 2개 이상 응답할 수 있습니다.
+      no_voters: 진행중인 투표가 없습니다.
+      option_placeholder: 선택
+      image_option_placeholder: 이미지 URL (선택)
+      options_label: 선택지
+      public_poll_label: 투표한 회원을 볼 수 있도록 허용
+      allow_multiple_votes_label: 1인당 여러번 투표할 수 있도록 허용
+      max_votes_label: 1인당 가능한 투표 횟수
+      max_votes_help: 선택지 개수만큼 투표할 수 있도록 하려면 0으로 설정하십시오.
+      hide_votes_label: 투표가 마감될때 까지 숨기기
+      allow_change_vote_label: 투표 선택을 변경할 수 있도록 허용
+      question_placeholder: 질문
+      submit: 제출
+
+    moderation:
+      add: 투표 안건 추가
+      delete: 투표 안건 삭제
+      delete_confirm: 투표 안건을 삭제하시겠습니까?
+      edit: 투표 안건 수정
+
+    tooltip:
+      badge: 투표 안건
+      votes: "{count, plural, one {# vote} other {# votes}}"
+
+    votes_modal:
+      title: 투표 참여회원
