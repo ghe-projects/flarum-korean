@@ -196,7 +196,7 @@ core:
       rename_discussions_label: '이름 변경'
       reply_to_discussions_label: '답장 쓰기'
       search_users_label: '사용자 검색'
-      sign_up_label: 가입
+      sign_up_label: ' '
       start_discussions_label: 글쓰기
       title: 권한
       view_discussions_label: '게시글 보기'
@@ -557,7 +557,7 @@ core:
     restore: 복구
     save_changes: '변경사항 저장'
     settings: 설정
-    sign_up: 가입
+    sign_up: ' '
     some_others: '{count, plural, one {# 개의 기타} other {# 개의 기타들}}'
     start_a_discussion: '새 주제 만들기'
     username: 사용자명
