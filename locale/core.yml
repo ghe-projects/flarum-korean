@@ -541,7 +541,7 @@ core:
     icon_text: '아무 <a>FontAwesome</a> 아이콘 클래스를 입력해주세요. <em>접두사 </em> <code>fas fa-</code>를 포함해야합니다.'
     load_more: '더 보기'
     loading: 로딩중...
-    log_in: 로그인
+    log_in: '블룸버스 로그인'
     log_out: 로그아웃
     mark_all_as_read: '모두 읽음으로 표시'
     next_page: '다음 페이지'
